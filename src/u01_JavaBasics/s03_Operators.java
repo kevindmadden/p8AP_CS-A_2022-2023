@@ -71,7 +71,7 @@ public class s03_Operators {
         System.out.println(10%7); //prints 3
         System.out.println(100%44); //prints 12
 
-        // %=, /=
+        // %=, /=d
 
 
     }
