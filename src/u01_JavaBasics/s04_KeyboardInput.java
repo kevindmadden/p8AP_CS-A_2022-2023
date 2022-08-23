@@ -44,5 +44,8 @@ public class s04_KeyboardInput {
         String message2 = kb.nextLine();
         System.out.println("Retrieved Message: "+message2);
 
+        System.out.println("First message: "+message+" First int: "+num1);
+        System.out.println(" Next double "+num2+ "Last message "+message2);
+
     }
 }
