@@ -1,0 +1,12 @@
+-Tips
+ -I am asking you to reinvent the wheel here because
+ it is a useful problem solving exercise.
+    -It will help you see new possibilities for creative/complex things you could
+    code that will be unique to you.
+ -Reinventing the wheel is a good idea here, unless you want to offer
+ suggestions on how to improve the efficiency to detect an arbitrarily shaped object
+ in 3D instead.
+ -Code to detect rectangle collisions is more complex than it is for circles.
+ -Change one of the rectangles so that it follows your cursor's position.
+ This will make it easier to check more thoroughly.
+ -
