@@ -23,6 +23,12 @@ public class RectangleRectangleCollision {
             xPos_rect1 = StdDraw.mouseX();
             yPos_rect1 = StdDraw.mouseY();
 
+            if(areRectanglesColliding(xPos_rect1, yPos_rect1, halfWidth_rect1, halfHeight_rect1, xPos_rect2, yPos_rect2, halfWidth_rect2, halfHeight_rect2)){
+                StdDraw.setPenColor(StdDraw.RED);
+            }else{
+                StdDraw.setPenColor(StdDraw.BLACK);
+            }
+
             StdDraw.filledRectangle(xPos_rect1, yPos_rect1, halfWidth_rect1, halfHeight_rect1);
             StdDraw.filledRectangle(xPos_rect2, yPos_rect2, halfWidth_rect2, halfHeight_rect2);
 
@@ -31,5 +37,23 @@ public class RectangleRectangleCollision {
             StdDraw.clear(); //This clears everything drawn on the screen. You must redraw the image you wish to display for each frame of an animation
         }
     }
+
+    public static boolean areRectanglesColliding(double x1, double y1, double halfWidth1, double halfHeight1,  double x2, double y2, double halfWidth2, double halfHeight2){
+        double l1 = x1 - halfWidth1;
+        double r1 = x1 + halfWidth1;
+        double t1 = y1 + halfHeight1;
+        double b1 = y1 - halfHeight1;
+
+        double l2 = x2 - halfWidth2;
+        double r2 = x2 + halfWidth2;
+        double t2 = y2 + halfHeight2;
+        double b2 = y2 - halfHeight2;
+
+        if(r1<l2 || t1<b2 || l1>r2 || b1>t2){
+            return false;
+        }
+        return true;
+    }
+
 }
 
