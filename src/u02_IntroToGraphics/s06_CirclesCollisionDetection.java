@@ -22,6 +22,7 @@ public class s06_CirclesCollisionDetection {
         while (true) {
             xDonut += xVelDonut*timeElapsed;
             yDonut += yVelDonut*timeElapsed;
+
             xCoin += xVelCoin*timeElapsed;
             yCoin += yVelCoin*timeElapsed;
 

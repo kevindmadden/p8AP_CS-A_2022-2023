@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3e7daa8-abdb-49f4-86ca-5e640bdb61fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u03_Classes101/CirclesExample/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u03_Classes101/CirclesExample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u03_Classes101/CirclesExample/StdDraw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u03_Classes101/DuckClassExample/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u03_Classes101/DuckClassExample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/u02_IntroToGraphics/s05_MouseCoordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u02_IntroToGraphics/s05_MouseCoordinates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/u02_IntroToGraphics/s06_CirclesCollisionDetection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u02_IntroToGraphics/s06_CirclesCollisionDetection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,36 +26,48 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2DUSM46iWg624VlYBQkOci8rKlt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/u01_JavaBasics" />
-    <property name="settings.editor.selected.configurable" value="copyright.filetypes.Python" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  }
+}</component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-      <recent name="u02_IntroToGraphics" />
-      <recent name="u01_JavaBasics" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Github\p8AP_CS-A_2022-2023\src\u01_JavaBasics" />
       <recent name="C:\Github\p8AP_CS-A_2022-2023" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="u03_Classes101.CirclesExample" />
+      <recent name="u02_IntroToGraphics" />
+      <recent name="" />
+      <recent name="u01_JavaBasics" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.s05_MouseCoordinates">
-    <configuration name="s01_Drawing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u02_IntroToGraphics.s01_Drawing" />
+  <component name="RunManager" selected="Application.u03_Classes101.CirclesExample.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u03_Classes101.DuckClassExample.Main" />
+      <module name="p8AP_CS-A_2022-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="u03_Classes101.DuckClassExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="s06_CirclesCollisionDetection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u02_IntroToGraphics.s06_CirclesCollisionDetection" />
       <module name="p8AP_CS-A_2022-2023" />
       <extension name="coverage">
         <pattern>
@@ -62,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="s02_voidMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u02_IntroToGraphics.s02_voidMethods" />
+    <configuration name="s07_GeneratingRandomNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u02_IntroToGraphics.s07_GeneratingRandomNumbers" />
       <module name="p8AP_CS-A_2022-2023" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="s03_FirstAnimation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u02_IntroToGraphics.s03_FirstAnimation" />
+    <configuration name="s07_RGBColor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u02_IntroToGraphics.s07_RGBColor" />
       <module name="p8AP_CS-A_2022-2023" />
       <extension name="coverage">
         <pattern>
@@ -88,25 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="s04_IfStatements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u02_IntroToGraphics.s04_IfStatements" />
+    <configuration name="u03_Classes101.CirclesExample.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u03_Classes101.CirclesExample.Main" />
       <module name="p8AP_CS-A_2022-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="u02_IntroToGraphics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="s05_MouseCoordinates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u02_IntroToGraphics.s05_MouseCoordinates" />
-      <module name="p8AP_CS-A_2022-2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="u02_IntroToGraphics.*" />
+          <option name="PATTERN" value="u03_Classes101.CirclesExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,14 +120,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.s05_MouseCoordinates" />
-        <item itemvalue="Application.s04_IfStatements" />
-        <item itemvalue="Application.s03_FirstAnimation" />
-        <item itemvalue="Application.s02_voidMethods" />
-        <item itemvalue="Application.s01_Drawing" />
+        <item itemvalue="Application.u03_Classes101.CirclesExample.Main" />
+        <item itemvalue="Application.s06_CirclesCollisionDetection" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.s07_RGBColor" />
+        <item itemvalue="Application.s07_GeneratingRandomNumbers" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -141,72 +146,38 @@
       <workItem from="1662488722583" duration="2539000" />
       <workItem from="1662558363942" duration="7612000" />
       <workItem from="1662751359385" duration="1662000" />
+      <workItem from="1662989163395" duration="245000" />
+      <workItem from="1663073491265" duration="3139000" />
+      <workItem from="1663245933787" duration="591000" />
+      <workItem from="1663264481532" duration="4816000" />
+      <workItem from="1663589347997" duration="1820000" />
+      <workItem from="1663774344038" duration="1158000" />
+      <workItem from="1663853436220" duration="504000" />
+      <workItem from="1663873320851" duration="2679000" />
+      <workItem from="1664219658755" duration="2311000" />
+      <workItem from="1664392211406" duration="1919000" />
+      <workItem from="1664561687658" duration="1488000" />
+      <workItem from="1664823115585" duration="3725000" />
+      <workItem from="1664903439652" duration="3428000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="331" y="66" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1661193730431">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="331" y="66" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1280.689@0.0.1280.689" timestamp="1661193730431" />
-    <state x="321" y="69" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.inPresentationMode" timestamp="1661193782123">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="321" y="69" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.inPresentationMode/0.0.1280.689@0.0.1280.689" timestamp="1661193782123" />
-    <state x="421" y="87" key="FileChooserDialogImpl" timestamp="1662653113444">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="421" y="87" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1662653113444" />
-    <state width="1279" height="183" key="GridCell.Tab.0.bottom" timestamp="1662752746690">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1661368931410">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1280.689@0.0.1280.689" timestamp="1661368931410" />
-    <state width="1279" height="183" key="GridCell.Tab.0.bottom/0.0.1280.689/-1920.0.1920.1050@0.0.1280.689" timestamp="1662752746690" />
-    <state width="1279" height="183" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1662653207725" />
-    <state width="1279" height="183" key="GridCell.Tab.0.center" timestamp="1662752746689">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1661368931408">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.center.inPresentationMode/0.0.1280.689@0.0.1280.689" timestamp="1661368931408" />
-    <state width="1279" height="183" key="GridCell.Tab.0.center/0.0.1280.689/-1920.0.1920.1050@0.0.1280.689" timestamp="1662752746689" />
-    <state width="1279" height="183" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1662653207725" />
-    <state width="1279" height="183" key="GridCell.Tab.0.left" timestamp="1662752746689">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1661368931407">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.left.inPresentationMode/0.0.1280.689@0.0.1280.689" timestamp="1661368931407" />
-    <state width="1279" height="183" key="GridCell.Tab.0.left/0.0.1280.689/-1920.0.1920.1050@0.0.1280.689" timestamp="1662752746689" />
-    <state width="1279" height="183" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1662653207725" />
-    <state width="1279" height="183" key="GridCell.Tab.0.right" timestamp="1662752746690">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1661368931408">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.right.inPresentationMode/0.0.1280.689@0.0.1280.689" timestamp="1661368931408" />
-    <state width="1279" height="183" key="GridCell.Tab.0.right/0.0.1280.689/-1920.0.1920.1050@0.0.1280.689" timestamp="1662752746690" />
-    <state width="1279" height="183" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1662653207725" />
-    <state x="141" y="0" key="SettingsEditor" timestamp="1662651357638">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="141" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1662651357638" />
-    <state x="91" y="0" key="new project wizard" timestamp="1662653199410">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="91" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1662653199410" />
-    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1662653075897">
-      <screen x="0" y="0" width="1280" height="689" />
-    </state>
-    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1662653075897" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/u02_IntroToGraphics/s07_GeneratingRandomNumbers.java</url>
+          <line>3</line>
+          <properties class="u02_IntroToGraphics.s07_GeneratingRandomNumbers">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
