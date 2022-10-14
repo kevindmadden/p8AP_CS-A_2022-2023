@@ -1,0 +1,5 @@
+-Continuously falling snow
+-Stagger the snow out
+-Differing speeds, sizes
+-Different types of falls
+-Have snow build up on "ground" over time
