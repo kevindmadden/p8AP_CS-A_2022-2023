@@ -67,7 +67,8 @@ public class Main {
                 isLeftPressed = true;
             }
 
-            drawGrid(grid);
+            //TODO: Fix this error below
+            //drawGrid(grid);
 
 
 
@@ -90,7 +91,7 @@ public class Main {
 
         int randomRow = 0;
         int randomCol = (int)(Math.random()*4);
-        //TODO: Fix this error below when uncommented   
+        //TODO: Fix this error below when uncommented
         /*while(grid[randomRow][randomCol] != 0){
             randomRow = 0;
             randomCol = (int)(Math.random()*4);
