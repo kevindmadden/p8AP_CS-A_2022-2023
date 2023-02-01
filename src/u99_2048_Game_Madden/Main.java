@@ -1,4 +1,4 @@
-package u05_2048_Game;
+package u99_2048_Game_Madden;
 
 /*
 M - Model (the inner workings of the logic)
@@ -78,6 +78,7 @@ public class Main {
     }
 
     public static Block[][] spawnNumber(Block[][] grid){
+        //TODO: Fix so that 2 isn't constantly spawned in every col number
         /*Method 1 - Non-lazy
             Store the available cells that have 0's in an array.
             Cycle through all elements in array and generate a list of cells where a # is not.
@@ -90,12 +91,11 @@ public class Main {
 
         int randomRow = 0;
         int randomCol = (int)(Math.random()*4);
-        //TODO: Fix this error below when uncommented   
-        /*while(grid[randomRow][randomCol] != 0){
+        while(grid[randomRow][randomCol] != 0){
             randomRow = 0;
             randomCol = (int)(Math.random()*4);
         }
-        grid[randomRow][randomCol] = 2;*/
+        grid[randomRow][randomCol] = 2;
         return grid;
     }
 
