@@ -2,7 +2,7 @@ package u05_2048_Game;
 /*
 M - Model (the inner workings of the logic)
 V - Drawing according to what is in the model
-C
+C - Controller
  */
 
 
@@ -12,10 +12,18 @@ import java.awt.event.KeyEvent;
 public class Main {
 
     public static void main(String[] args) {
+
         StdDraw.setScale(0, 50);
         StdDraw.enableDoubleBuffering(); //Calling this method stops things from being drawn immediately after a draw method is called. This allows you to call many different draw methods without anything being drawn on the screen; when you call StdDraw.show(), everything will be drawn at once.
 
         Block[][] blocks = new Block[4][4];
+
+        for(int row=0; row<4; row++){
+            for(int col=0; col<4; col++){
+                blocks[row][col] = new Block();
+            }
+        }
+        System.out.println(String.valueOf(blocks[0][0]));
 
         boolean isLeftPressed = false;
 
@@ -41,14 +49,18 @@ public class Main {
     }
 
     public static Block[][] spawnNumber(Block[][] blocks){
-        int randomRow = 0;
+        int randomRow = (int)(Math.random()*4);
         int randomCol = (int)(Math.random()*4);
-        //TODO: Fix this error below when uncommented
-        /*while(blocks[randomRow][randomCol] != 0){
-            randomRow = 0;
+        while(blocks[randomRow][randomCol].getNum() != 0){
+            randomRow = (int)(Math.random()*4);
             randomCol = (int)(Math.random()*4);
         }
-        blocks[randomRow][randomCol] = 2;*/
+        if(Math.random()<0.9){
+            blocks[randomRow][randomCol].setNum(2);
+        }else{
+            blocks[randomRow][randomCol].setNum(4);
+        }
+
         return blocks;
     }
 
@@ -59,16 +71,7 @@ public class Main {
 
         for(int row=0; row<=3; row++){
             for(int col=0; col<=3; col++){
-                int yCenter = 7+12*row;
-                int xCenter = 7+12*col;
-                //Draws block
-                StdDraw.setPenColor(new Color(173, 125, 125));
-                StdDraw.filledSquare(7+12*col,7+12*row,5);
-                //Draw text
-                StdDraw.setPenColor(new Color(0, 0, 0));
-                Font font = new Font("Arial", Font.BOLD, 60);
-                StdDraw.setFont(font);
-                StdDraw.text(xCenter, yCenter, String.valueOf(blocks[row][col]));
+                blocks[row][col].draw(row, col);
             }
         }
 
