@@ -23,6 +23,17 @@ public class Main {
                 blocks[row][col] = new Block();
             }
         }
+        blocks[0][0].setNum(2);
+        blocks[0][1].setNum(4);
+        blocks[0][2].setNum(8);
+        blocks[0][3].setNum(16);
+        blocks[1][0].setNum(32);
+        blocks[1][1].setNum(64);
+        blocks[1][2].setNum(128);
+        blocks[1][3].setNum(256);
+        blocks[2][0].setNum(512);
+        blocks[3][1].setNum(1024);
+
         System.out.println(String.valueOf(blocks[0][0]));
 
         boolean isLeftPressed = false;
