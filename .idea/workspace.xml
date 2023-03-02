@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3e7daa8-abdb-49f4-86ca-5e640bdb61fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/u03_Classes101/CirclesExample/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/u03_Classes101/CirclesExample/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/u03_Classes101/CirclesExample/StdDraw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/u03_Classes101/DuckClassExample/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/u03_Classes101/DuckClassExample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/u02_IntroToGraphics/s06_CirclesCollisionDetection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u02_IntroToGraphics/s06_CirclesCollisionDetection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/u04_IterationAndArrays/Snowflake/Snowflake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u04_IterationAndArrays/Snowflake/Snowflake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/u99_2048_Game_Madden/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u99_2048_Game_Madden/Block.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/u99_2048_Game_Madden/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u99_2048_Game_Madden/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/u99_2048_Game_Madden/StdDraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u99_2048_Game_Madden/StdDraw.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,28 +34,39 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Github/p8AP_CS-A_2022-2023/src/u99_2048_Game_Madden&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeWithMe&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Github\p8AP_CS-A_2022-2023\src\u99_2048_Game_Madden" />
+      <recent name="C:\Github\p8AP_CS-A_2022-2023\src" />
       <recent name="C:\Github\p8AP_CS-A_2022-2023\src\u01_JavaBasics" />
       <recent name="C:\Github\p8AP_CS-A_2022-2023" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="u05_2048_Game" />
+      <recent name="u04_IterationAndArrays.Snowflake" />
       <recent name="u03_Classes101.CirclesExample" />
       <recent name="u02_IntroToGraphics" />
       <recent name="" />
-      <recent name="u01_JavaBasics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.u03_Classes101.CirclesExample.Main">
+  <component name="RunManager" selected="Application.u04_IterationAndArrays.Snowflake.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u03_Classes101.DuckClassExample.Main" />
+      <option name="MAIN_CLASS_NAME" value="u05_2048_Game.Main" />
       <module name="p8AP_CS-A_2022-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="u03_Classes101.DuckClassExample.*" />
+          <option name="PATTERN" value="u05_2048_Game.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="s06_CirclesCollisionDetection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u02_IntroToGraphics.s06_CirclesCollisionDetection" />
+    <configuration name="PossibleConfigurations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u05_2048_Game.PossibleConfigurations" />
       <module name="p8AP_CS-A_2022-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="u02_IntroToGraphics.*" />
+          <option name="PATTERN" value="u05_2048_Game.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="s07_GeneratingRandomNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u02_IntroToGraphics.s07_GeneratingRandomNumbers" />
+    <configuration name="u04_IterationAndArrays.Snowflake.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u04_IterationAndArrays.Snowflake.Main" />
       <module name="p8AP_CS-A_2022-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="u02_IntroToGraphics.*" />
+          <option name="PATTERN" value="u04_IterationAndArrays.Snowflake.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="s07_RGBColor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u02_IntroToGraphics.s07_RGBColor" />
+    <configuration name="u99_2048_Game_Madden.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u99_2048_Game_Madden.Main" />
       <module name="p8AP_CS-A_2022-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="u02_IntroToGraphics.*" />
+          <option name="PATTERN" value="u99_2048_Game_Madden.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="u03_Classes101.CirclesExample.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u03_Classes101.CirclesExample.Main" />
+    <configuration name="u99_2048_Game_Madden.PossibleConfigurations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u99_2048_Game_Madden.PossibleConfigurations" />
       <module name="p8AP_CS-A_2022-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="u03_Classes101.CirclesExample.*" />
+          <option name="PATTERN" value="u99_2048_Game_Madden.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.u03_Classes101.CirclesExample.Main" />
-        <item itemvalue="Application.s06_CirclesCollisionDetection" />
+        <item itemvalue="Application.u04_IterationAndArrays.Snowflake.Main" />
+        <item itemvalue="Application.u99_2048_Game_Madden.Main" />
+        <item itemvalue="Application.u99_2048_Game_Madden.PossibleConfigurations" />
+        <item itemvalue="Application.PossibleConfigurations" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.s07_RGBColor" />
-        <item itemvalue="Application.s07_GeneratingRandomNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +166,25 @@
       <workItem from="1664392211406" duration="1919000" />
       <workItem from="1664561687658" duration="1488000" />
       <workItem from="1664823115585" duration="3725000" />
-      <workItem from="1664903439652" duration="3428000" />
+      <workItem from="1664903439652" duration="16357000" />
+      <workItem from="1666114266704" duration="3617000" />
+      <workItem from="1666183396522" duration="12950000" />
+      <workItem from="1667240182074" duration="1350000" />
+      <workItem from="1669144310450" duration="769000" />
+      <workItem from="1669652814398" duration="589000" />
+      <workItem from="1669816007386" duration="3143000" />
+      <workItem from="1670518007284" duration="1188000" />
+      <workItem from="1670595101230" duration="2326000" />
+      <workItem from="1670956969151" duration="585000" />
+      <workItem from="1673291807550" duration="1232000" />
+      <workItem from="1674245913410" duration="1520000" />
+      <workItem from="1674487769610" duration="14165000" />
+      <workItem from="1675105645119" duration="11139000" />
+      <workItem from="1675277504486" duration="12250000" />
+      <workItem from="1675780943991" duration="41652000" />
+      <workItem from="1677006728388" duration="8619000" />
+      <workItem from="1677703122090" duration="225000" />
+      <workItem from="1677786309552" duration="461000" />
     </task>
     <servers />
   </component>
@@ -179,5 +205,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

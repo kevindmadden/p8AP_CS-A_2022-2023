@@ -6,7 +6,6 @@ public class Snowflake {
     private double yVel;
 
     private static int totalSnowflakes;
-    //private static int[] totalSnowflakes = new int[2];
 
     public Snowflake() {
         xPos = Math.random() * 100;
@@ -25,10 +24,7 @@ public class Snowflake {
             xPos = Math.random() * 100;
             yPos = 105;
             yVel = -1 * (Math.random() * 80 + 40);
-
-
-            //totalSnowflakes++;
-            //System.out.println(totalSnowflakes);
+            totalSnowflakes++;
         }
     }
 

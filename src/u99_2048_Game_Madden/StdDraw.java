@@ -454,7 +454,7 @@ import java.util.TreeSet;
  *  @author Robert Sedgewick
  *  @author Kevin Wayne
  */
-public final class StdDraw implements ActionListener, MouseListener, MouseMotionListener, KeyListener {
+public class StdDraw implements ActionListener, MouseListener, MouseMotionListener, KeyListener {
 
     /**
      *  The color black.
@@ -2013,8 +2013,15 @@ public final class StdDraw implements ActionListener, MouseListener, MouseMotion
     @Override
     public void keyReleased(KeyEvent e) {
         synchronized (keyLock) {
+            //if(e.getKeyCode()==KeyEvent.VK_LEFT){
+              //  System.out.println("left released");
+            //}
             keysDown.remove(e.getKeyCode());
         }
+    }
+
+    public boolean KeyReleased(int keycode) {
+        return keysDown.contains(keycode);
     }
 
 
