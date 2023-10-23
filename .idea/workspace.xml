@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3e7daa8-abdb-49f4-86ca-5e640bdb61fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Testing/TestingMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u_09_Inheritance/Checker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u_09_Inheritance/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u_09_Inheritance/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/u04_IterationAndArrays/Snowflake/Snowflake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u04_IterationAndArrays/Snowflake/Snowflake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/u99_2048_Game_Madden/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u99_2048_Game_Madden/Block.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/u99_2048_Game_Madden/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u99_2048_Game_Madden/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/u99_2048_Game_Madden/StdDraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u99_2048_Game_Madden/StdDraw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p8AP_CS-A_2022-2023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/p8AP_CS-A_2022-2023.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,24 +33,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Github/p8AP_CS-A_2022-2023/src/u99_2048_Game_Madden&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CodeWithMe&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "C:/Github/p8AP_CS-A_2022-2023/stdlib.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "JavaScript.Libraries"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Github\p8AP_CS-A_2022-2023\src\u99_2048_Game_Madden" />
       <recent name="C:\Github\p8AP_CS-A_2022-2023\src" />
       <recent name="C:\Github\p8AP_CS-A_2022-2023\src\u01_JavaBasics" />
+      <recent name="C:\Github\p8AP_CS-A_2022-2023" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Github\p8AP_CS-A_2022-2023" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -60,20 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.u04_IterationAndArrays.Snowflake.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u05_2048_Game.Main" />
-      <module name="p8AP_CS-A_2022-2023" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="u05_2048_Game.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.u_09_Inheritance.Main">
     <configuration name="PossibleConfigurations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="u05_2048_Game.PossibleConfigurations" />
       <module name="p8AP_CS-A_2022-2023" />
@@ -126,13 +120,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="u_09_Inheritance.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u_09_Inheritance.Main" />
+      <module name="p8AP_CS-A_2022-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="u_09_Inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.u_09_Inheritance.Main" />
         <item itemvalue="Application.u04_IterationAndArrays.Snowflake.Main" />
         <item itemvalue="Application.u99_2048_Game_Madden.Main" />
         <item itemvalue="Application.u99_2048_Game_Madden.PossibleConfigurations" />
         <item itemvalue="Application.PossibleConfigurations" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +191,13 @@
       <workItem from="1675780943991" duration="41652000" />
       <workItem from="1677006728388" duration="8619000" />
       <workItem from="1677703122090" duration="225000" />
-      <workItem from="1677786309552" duration="461000" />
+      <workItem from="1677786309552" duration="2325000" />
+      <workItem from="1679335783350" duration="1511000" />
+      <workItem from="1679419245459" duration="648000" />
+      <workItem from="1680543593928" duration="8010000" />
+      <workItem from="1681217762976" duration="588000" />
+      <workItem from="1681845065820" duration="1235000" />
+      <workItem from="1682704851734" duration="2141000" />
     </task>
     <servers />
   </component>
